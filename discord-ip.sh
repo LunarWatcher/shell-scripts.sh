@@ -1,3 +1,6 @@
+# Tiny script that gets the IP of the device it's running on, and sends it to a Discord webhook.
+# Lazy alternative to emails :')
+
 # Get the IP
 IP=$(curl ifconfig.me -s)
 # Insert Discord webhook URL here
